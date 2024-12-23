@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  background-color: #896d79;
+  align-items: center;
+  padding: 18px 0;
+}
+
+.navList {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.navList:last-child {
+  margin-right: 40px;
+}
+
+a {
+  padding: 7px 14px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.link.active {
+  color: "#fff";
+  background: "#1a1818";
+}
+
+.link {
+  color: "#f7dfd5";
+}

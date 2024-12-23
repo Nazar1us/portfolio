@@ -1,0 +1,35 @@
+label {
+  color: #564561;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px 20px;
+  margin: 10px 5px;
+  color: #fffdfd;
+  border-radius: 10px;
+  background-color: #9f9a7f;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #a29e88;
+  color: rgba(0, 0, 0, 0.79);
+  font-weight: bold;
+}
+
+.listItems {
+  align-items: center;
+  width: 360px;
+  margin: 20px auto;
+  list-style: none;
+  padding: 10px;
+  background-color: #e3e3e25f;
+  border-radius: 7px;
+}
+.editInputs {
+  display: inline-block;
+  margin: 10px auto;
+}

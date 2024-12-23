@@ -1,0 +1,14 @@
+.formList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input {
+  display: flex;
+  padding: 7px 14px;
+  border: 2px solid rgb(185, 185, 185);
+}

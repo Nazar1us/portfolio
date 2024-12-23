@@ -1,0 +1,17 @@
+.ourwork h1 {
+  color: black;
+  margin: 2em 0;
+}
+
+.ourwork ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em;
+}
+
+.ourwork li {
+  list-style: none;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 1em;
+}
