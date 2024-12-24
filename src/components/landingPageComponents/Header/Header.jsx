@@ -23,42 +23,44 @@ const Header = () => {
     }
 
     return (
-        <header className={css.header}>
-            {/* <Link to='/bridge'><BridgeLogo /></Link> */}
-            {isScreenMobile ?
-                <button className={css.burgerBtn}
-                    onClick={handleBurgerMenu}>
-                    <FontAwesomeIcon icon={faBars} />
-                </button>
-                :
-                <>
-                    <nav className={css["main-nav"]}>
-                        <NavLink
-                            to='.'
-                            end
-                            style={({ isActive }) => isActive ? activeNav : null}
-                        >
-                            Main
-                        </NavLink>
-                        <NavLink
-                            to="services"
-                            style={({ isActive }) => isActive ? activeNav : null}
-                        >
-                            Services
-                        </NavLink>
-                        <NavLink
-                            to="contacts"
-                            style={({ isActive }) => isActive ? activeNav : null}
-                        >
-                            Contacts
-                        </NavLink>
-                    </nav>
-                    <Button setGetService={setGetService}>Get Services</Button>
-                </>
+        <header >
+            <div className={`container ${css.header}`}>
+                {/* <Link to='/bridge'><BridgeLogo /></Link> */}
+                {isScreenMobile ?
+                    <button className={css.burgerBtn}
+                        onClick={handleBurgerMenu}>
+                        <FontAwesomeIcon icon={faBars} />
+                    </button>
+                    :
+                    <>
+                        <nav className={css["main-nav"]}>
+                            <NavLink
+                                to='.'
+                                end
+                                style={({ isActive }) => isActive ? activeNav : null}
+                            >
+                                Main
+                            </NavLink>
+                            <NavLink
+                                to="services"
+                                style={({ isActive }) => isActive ? activeNav : null}
+                            >
+                                Services
+                            </NavLink>
+                            <NavLink
+                                to="contacts"
+                                style={({ isActive }) => isActive ? activeNav : null}
+                            >
+                                Contacts
+                            </NavLink>
+                        </nav>
+                        <Button setGetService={setGetService}>Get Services</Button>
+                    </>
 
-            }
-            {isScreenMobile && <BurgerMenu />}
-            {getService && <LandingModal closeModal={() => setGetService(false)} />}
+                }
+                {isScreenMobile && <BurgerMenu />}
+                {getService && <LandingModal closeModal={() => setGetService(false)} />}
+            </div>
         </header >
 
     )

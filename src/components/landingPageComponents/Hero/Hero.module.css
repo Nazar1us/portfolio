@@ -2,7 +2,40 @@
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: space-between;
-  padding: 0 20rem;
-  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.consult {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  margin-left: 3em;
+  text-align: start;
+}
+.consult h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+.consult h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+.consult p {
+  font-size: 24px;
+  color: rgb(50, 50, 50);
+}
+
+.consult button {
+  max-width: 250px;
+  font-size: 18px;
+  margin-top: 1.3em;
 }

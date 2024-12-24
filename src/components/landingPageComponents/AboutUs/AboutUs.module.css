@@ -1,6 +1,9 @@
+.aboutUsHead {
+  background-color: #f4f4f4;
+}
+
 .aboutUs {
   display: flex;
-  background-color: #f4f4f4;
   margin-top: 2em;
   padding: 6em 0;
   text-decoration: none;
@@ -29,7 +32,6 @@
   .aboutUs {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f4f4f4;
     margin-top: 2em;
     padding: 6em 0;
     text-decoration: none;
