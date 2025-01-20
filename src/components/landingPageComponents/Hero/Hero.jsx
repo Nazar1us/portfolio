@@ -10,7 +10,7 @@ const Hero = () => {
         <>
             <section className={css.sectionHero}>
                 <div className={`container ${css.hero}`}>
-                    <img src={logo} alt="bridge" />
+                    <img src={logo} alt="bridge"  className={css.logo}/>
                     <div>
                         <div className={css.consult}>
                             <h1>Консалтингова компанія</h1>
@@ -28,7 +28,7 @@ const Hero = () => {
             </section >
             {getService && <LandingModal closeModal={() => setGetService(false)} />
             }
-        </>
+        </> 
     )
 }
 

@@ -15,7 +15,9 @@ const Navigation = () => {
                     </li>
                     <li className={css.navList}>
                         <NavLink to='/contacts' className={css.link}>Contacts</NavLink>
-                        <NavLink to="/bridge">Landing Page</NavLink>
+                    </li>
+                    <li className={css.navList}>
+                    <NavLink to="/bridge" className={css.link}>Landing Page</NavLink>
                     </li>
                 </ul>
             </nav >

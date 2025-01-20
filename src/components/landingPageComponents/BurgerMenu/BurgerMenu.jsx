@@ -16,7 +16,7 @@ const BurgerMenu = () => {
                 <FontAwesomeIcon icon={faXmark} />
             </button>
 
-            <div>
+            <div className={css.links}>
                 <NavLink to='.' onClick={handleBurgerMenu}>Main</NavLink>
                 <NavLink to='services' onClick={handleBurgerMenu}>Services</NavLink>
                 <NavLink to="contacts" onClick={handleBurgerMenu}>Contacts</NavLink>

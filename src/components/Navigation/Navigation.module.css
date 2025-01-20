@@ -1,22 +1,21 @@
 .navbar {
   display: flex;
+  flex-direction: row;
+  gap: 1rem;
   background-color: #896d79;
   align-items: center;
-  padding: 18px 0;
+  padding: 28px 0;
+  justify-content: space-between;
+  
 }
 
 .navList {
   list-style: none;
-  margin-right: 20px;
   font-size: 18px;
 }
 
 .navList:last-child {
-  margin-right: 40px;
-}
-
-a {
-  padding: 7px 14px;
+ margin-right: 30px;
 }
 
 a:link {
@@ -29,5 +28,6 @@ a:link {
 }
 
 .link {
-  color: "#f7dfd5";
+  color: white;
+  
 }
