@@ -4,23 +4,21 @@ import css from './Option.module.css'
 
 const Option = ({item}) => {
     const [expanded, setExpanded] = useState(false);
+    const ref = useRef(null);
+    
     const handleExpand = () => {
         setExpanded(prevState => !prevState)
         const {y} = ref.current.getBoundingClientRect()
         const {scrollHeight} = document.documentElement;
 
         if(expanded) {
-            
             window.scrollTo(0, y + scrollHeight)
         }
     }
 
-    const ref = useRef(null);
+   
 
-    useEffect(() => {
-        console.log(ref.current.getBoundingClientRect())
-        // console.log(ref.current.scrollHeight, 'height')
-    }, [])
+    
   return (
     <>
             <li>
