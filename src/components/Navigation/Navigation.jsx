@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../contactsComponents/logo/Logo.jsx'
 import { NavLink } from 'react-router-dom'
 import css from './Navigation.module.css'
