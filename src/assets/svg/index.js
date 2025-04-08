@@ -1,8 +1,7 @@
-import  { ReactComponent as Logo }  from './logo.svg';
-
+import Logo from "./logo.svg?react";
 
 export const SVG = {
-    Logo
+  Logo,
 };
 
-console.log('Logo', Logo)
+console.log("Logo", Logo);

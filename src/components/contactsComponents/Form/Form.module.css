@@ -1,14 +1,47 @@
+.contactForm {
+  background: rgba(159, 56, 228, 0.18);
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 .formList {
   display: flex;
   flex-direction: row;
-  gap: 20px;
   align-items: center;
-  justify-content: center;
-  margin-top: 40px;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-input {
+.inputForm {
   display: flex;
-  padding: 7px 14px;
-  border: 2px solid rgb(185, 185, 185);
+  padding: 10px 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.addBtn {
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(159, 56, 228, 1) 0%,
+    rgba(144, 71, 231, 1) 54%,
+    rgba(118, 96, 235, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-weight: bold;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.addBtn:hover {
+  scale: 1.1;
+  transition: 0.4s;
 }

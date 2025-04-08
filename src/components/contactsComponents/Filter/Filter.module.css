@@ -1,3 +1,5 @@
 .filter {
-  color: dark;
+  padding: 10px 24px;
+  display: flex;
+  margin-top: 5px;
 }
