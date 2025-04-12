@@ -1,12 +1,13 @@
 .navbar {
+  background-color: #101820;
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  background-color: #896d79;
+  flex-direction: column;
   align-items: center;
-  padding: 28px 0;
   justify-content: space-between;
-  
+}
+.navWrapper {
+  display: flex;
+  gap: 1.3rem;
 }
 
 .navList {
@@ -15,7 +16,7 @@
 }
 
 .navList:last-child {
- margin-right: 30px;
+  margin-right: 30px;
 }
 
 a:link {
@@ -23,11 +24,35 @@ a:link {
 }
 
 .link.active {
-  color: "#fff";
-  background: "#1a1818";
+  color: #fee715;
+  background: rgb(14, 56, 100);
+  transform: scale(1.2);
 }
 
 .link {
-  color: white;
-  
+  color: #101820;
+  background: #fee715;
+  padding: 0.5em;
+}
+.link:hover {
+  color: #fee715;
+  background: rgb(14, 56, 100);
+}
+.link:focus {
+  color: #fee715;
+  background: rgb(14, 56, 100);
+}
+
+@media screen and (min-width: 630px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 28px 0;
+  }
+  .navWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 }

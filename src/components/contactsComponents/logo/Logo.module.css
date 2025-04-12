@@ -1,9 +1,17 @@
 .logo {
-  margin-right: auto;
-  margin-left: 40px;
+  margin-top: 10px;
   font-size: 18px;
+  margin-left: 20px;
 }
 
 .logo h1 {
-  color: #f7dfd5;
+  /* display */
+  color: #fee715;
+  border: 2px solid #fee715;
+  padding: 0.5em;
+  borer-radius: 7px;
+}
+
+.logo h1:hover {
+  border-color: rgb(171, 154, 0);
 }
