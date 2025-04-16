@@ -3,6 +3,7 @@ import myPhoto from "../../public/myPhotos/myPhoto.jpeg";
 import styles from "./Home.module.css";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -52,16 +53,23 @@ const Home = () => {
             </div>
           </div>
           <div className={styles["hero-image"]}>
-            <img
-              src={myPhoto}
-              width={350}
-              height={350}
-              alt="My photo"
-              className={styles.image}
-            />
+            <a
+              href="https://www.linkedin.com/in/nazariy-lahoida-a417911b8/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src={myPhoto}
+                width={350}
+                height={350}
+                alt="My photo"
+                className={styles.image}
+              />
+            </a>
           </div>
         </section>
       </div>
+      <Projects />
     </div>
   );
 };

@@ -92,13 +92,14 @@ input {
 .image {
   border-radius: 7px;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(140, 140, 140, 0.57),
-    0 10px 30px rgba(255, 255, 255, 0.37);
   transition: transform 0.5s ease;
 }
 
 .image:hover {
   transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(140, 140, 140, 0.57),
+    0 10px 30px rgba(255, 255, 255, 0.37);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 820px) {
