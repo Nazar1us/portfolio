@@ -1,7 +1,6 @@
 .logo {
   margin-top: 10px;
   font-size: 18px;
-  margin-left: 20px;
 }
 
 .logo h1 {
@@ -14,4 +13,5 @@
 
 .logo h1:hover {
   border-color: rgb(171, 154, 0);
+  color: rgba(254, 231, 21, 0.85);
 }

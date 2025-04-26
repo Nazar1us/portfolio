@@ -1,29 +1,3 @@
-/*.formList { 
- display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  margin-top: 40px;
-}
-
-input {
-  display: flex;
-  border-radius: 7px;
-  padding: 5px 10px;
-  outline: none;
-  border: 2px solid rgb(1, 132, 240);
-} */
-
-/* .personal-info {
-  display: grid;
-  grid-template-areas:
-    "initial  image"
-    "moto  image"
-    "personal-links  image";
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-} */
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap");
 
 .homeWrapper {
@@ -40,7 +14,7 @@ input {
 }
 
 .initial {
-  font-size: 35px;
+  font-size: 2.1875rem;
   color: rgb(255, 255, 255);
 }
 .initial > span {
@@ -93,6 +67,7 @@ input {
   border-radius: 7px;
   object-fit: cover;
   transition: transform 0.5s ease;
+  width: 100%;
 }
 
 .image:hover {
@@ -102,34 +77,42 @@ input {
   cursor: pointer;
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 860px) {
   .personal-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 100px 0;
     line-height: 1.5;
+    width: 100%;
+    gap: 40px;
+    border-bottom: 2px solid #fff; /* Adjust thickness, style, and color as needed */
+    justify-content: space-between;
+    margin-bottom: 100px; /* Optionally add margin below the border as well */
   }
   .hero-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
+    /* width: 60%; */
+  }
+  .initial {
+    font-size: 2.8rem;
+  }
+  .initial,
+  .moto,
+  .personal-links {
+    justify-content: flex-start;
     text-align: left;
   }
   .moto {
-    font-size: 25px;
+    font-size: 1.8rem;
     color: rgb(255, 255, 255);
     width: 70%;
   }
-  .hero-info {
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-  }
-  .personal-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+  .img {
+    display: block;
+    min-height: 350px;
+    min-width: 350px;
   }
 }

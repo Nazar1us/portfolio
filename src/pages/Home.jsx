@@ -58,13 +58,7 @@ const Home = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img
-                src={myPhoto}
-                width={350}
-                height={350}
-                alt="My photo"
-                className={styles.image}
-              />
+              <img src={myPhoto} alt="My photo" className={styles.image} />
             </a>
           </div>
         </section>

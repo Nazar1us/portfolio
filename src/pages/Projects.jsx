@@ -1,4 +1,5 @@
 import styles from "./Projects.module.css";
+import Ecommerce from "../../public/projects/ecommerce.png";
 const Projects = () => {
   return (
     <div className="container">
@@ -11,11 +12,11 @@ const Projects = () => {
 
         <article className={styles.project}>
           <div className={styles["project-image"]}>
-            <img src="" alt="" />
+            <img src={Ecommerce} alt="" width={500} height={500} />
           </div>
 
           <div className={styles["project-details"]}>
-            <h3>Promotional landing page for our favorite show</h3>
+            <h3>ProStore E-Commerce website</h3>
             <p>
               Teamed up with a designer to breathe life into a promotional
               webpage for our beloved show, Adventure Time. Delivered a fully
@@ -24,21 +25,22 @@ const Projects = () => {
               latest adventures.
             </p>
 
-            <div className={styles["project-info"]}>
-              <div>
-                <strong>Year</strong>
-                <span>2023</span>
-              </div>
-              <div>
-                <strong>Role</strong>
-                <span>Front-end Developer</span>
-              </div>
-            </div>
+            <div className={styles["project-info"]}></div>
             <div className={styles["projects-links"]}>
-              <a href="#" className="live-demo">
+              <a
+                href="https://shop-store-nine.vercel.app/"
+                className="live-demo"
+                target="_blank"
+                referrerPolicy="no-referrer"
+              >
                 Live Demo
               </a>
-              <a href="#" className="github-link">
+              <a
+                href="https://github.com/Nazar1us/shop-store"
+                className="github-link"
+                target="_blank"
+                referrerPolicy="no-referrer"
+              >
                 See on GitHub
               </a>
             </div>

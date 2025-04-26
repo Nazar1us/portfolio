@@ -4,7 +4,7 @@ import css from "./Navigation.module.css";
 
 const Navigation = () => {
   return (
-    <div className={css.header}>
+    <div className="container">
       <nav className={css.navbar}>
         <Logo />
         <ul className={css.navWrapper}>
