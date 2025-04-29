@@ -3,24 +3,24 @@
     "id": 1,
     "title": "ProStore E-Commerce website",
     "description": "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
-    "image": "ecommerce.png",
+    "image": "shop-store.png",
     "liveDemo": "https://shop-store-nine.vercel.app/",
     "github": "https://github.com/Nazar1us/shop-store"
   },
   {
     "id": 2,
-    "title": "Another Cool Project",
-    "description": "Built a cool app that does amazing things!",
+    "title": "Food Recepies Project",
+    "description": "Built a Food Recepies that we can add new meals! In this project I used next.js and css modules.",
     "image": "burger.png",
-    "liveDemo": "https://coolproject.vercel.app/",
-    "github": "https://github.com/Nazar1us/coolproject"
+    "liveDemo": "https://myfirst-nextjs-app.netlify.app/",
+    "github": "https://github.com/Nazar1us/next-js-app"
   },
   {
     "id": 3,
-    "title": "Portfolio Website",
-    "description": "Created a personal portfolio to showcase my work and skills.",
-    "image": "portfolio.png",
-    "liveDemo": "https://portfolio.vercel.app/",
-    "github": "https://github.com/Nazar1us/portfolio"
+    "title": "VansLife Website",
+    "description": "Created a Vans website, where we can book a van, log in into the personal account. In this project I use plain React.js library, created custom hooks etc...",
+    "image": "vansLife.png",
+    "liveDemo": "https://vanslife1.netlify.app/",
+    "github": "https://github.com/Nazar1us/vanslife"
   }
 ]

@@ -1,32 +1,18 @@
-.project {
-  display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
-  gap: 2rem;
-}
-.project-details {
-  flex: 1;
+.projects {
+  border-bottom: 2px solid #fff; /* Adjust thickness, style, and color as needed */
+  justify-content: space-between;
 }
 
-.project-info {
-  display: flex;
-  gap: 2rem;
-  margin-top: 1rem;
-  border-top: 1px solid #444;
-  padding-top: 1rem;
+.projects h1 {
+  margin-bottom: 1rem;
+  color: rgb(152, 255, 142);
+  font-size: 2.1875rem;
+  /* border: 2px solid underline; */
 }
 
-.project-info div {
-  display: flex;
-  flex-direction: column;
-}
-
-.project-links {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.project-image > img {
-  object-fit: contain;
+.projects p {
+  color: rgba(255, 255, 255, 0.91);
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
 }
