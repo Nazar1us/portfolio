@@ -104,17 +104,26 @@ const ListItems = () => {
             ) : (
               <>
                 <div className={styles.editValues}>
-                  {name} - {number}
+                  <p className={styles.contactName}>{name}</p> -{" "}
+                  <p className={styles.contactNumber}>{number}</p>
                   <div className={styles.alignBtns}>
                     <button
                       type="button"
                       onClick={() => handleEditClick(id, name, number)}
                     >
-                      <FontAwesomeIcon icon={faPenToSquare} size="md" />
+                      <FontAwesomeIcon
+                        icon={faPenToSquare}
+                        size="xl"
+                        className={styles.editIcon}
+                      />
                     </button>
 
                     <button type="button" onClick={() => openModal(id)}>
-                      <FontAwesomeIcon icon={faTrash} size="md" />
+                      <FontAwesomeIcon
+                        icon={faTrash}
+                        size="xl"
+                        className={styles.trashIcon}
+                      />
                     </button>
                   </div>
                 </div>

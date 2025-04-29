@@ -1,7 +1,7 @@
 .contactForm {
   background: rgba(159, 56, 228, 0.18);
   padding: 20px;
-  width: 50%;
+  width: 70%;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -44,4 +44,11 @@
 .addBtn:hover {
   scale: 1.1;
   transition: 0.4s;
+}
+
+@media screen and (max-width: 970px) {
+  .formList {
+    display: flex;
+    flex-direction: column;
+  }
 }

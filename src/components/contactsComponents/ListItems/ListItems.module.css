@@ -22,14 +22,56 @@ label {
 
 .listItems {
   align-items: center;
-  width: 360px;
+  width: 50%;
   margin: 20px auto;
   list-style: none;
-  padding: 10px;
+  padding: 20px;
   background-color: rgba(0, 175, 229, 0.37);
   border-radius: 7px;
 }
 .editInputs {
   display: inline-block;
   margin: 10px auto;
+}
+.editValues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.contactName {
+  font-weight: bold;
+  color: rgb(125, 9, 197);
+}
+.contactNumber {
+  align-items: center;
+  color: rgb(58, 38, 72);
+}
+.alignBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+.trashIcon {
+  color: rgba(118, 96, 235, 1);
+  background: #fff;
+  font-size: 25px;
+}
+
+.editIcon {
+  color: rgba(118, 96, 235, 1);
+  background: #fff;
+  font-size: 25px;
+  border: none;
+}
+
+.editIcon:hover,
+.trashIcon:hover {
+  color: rgb(42, 10, 225);
+  background: #fff;
+  font-size: 25px;
+  border: none;
 }
