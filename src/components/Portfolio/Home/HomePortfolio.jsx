@@ -12,7 +12,9 @@ const HomePortfolio = () => {
         <section className={styles["personal-info"]}>
           <div className={styles["hero-info"]}>
             <h1 className={styles.initial}>
-              HI, I AM <br /> <span>NAZARIY LAHOIDA.</span>
+              <span className={styles.lineOne}>HI, I AM</span>
+              <br />
+              <span className={styles.lineTwo}>NAZARIY LAHOIDA.</span>
             </h1>
             <p className={styles.moto}>
               Front-end developer passionate about building accessible and user

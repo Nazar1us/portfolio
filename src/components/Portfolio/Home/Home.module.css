@@ -18,11 +18,83 @@
 
 .initial {
   font-size: 2.1875rem;
-  color: rgb(255, 255, 255);
 }
-.initial > span {
+
+.lineOne,
+.lineTwo {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 0;
+}
+
+/* Typing animations */
+
+.lineOne {
+  color: white;
+  animation: typing 2s steps(20, end) forwards;
+}
+
+.lineTwo {
+  animation: typing 2s steps(25, end) 2.2s forwards;
   color: rgb(152, 255, 142);
 }
+
+/* Carets */
+.lineOne::after,
+.lineTwo::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: white;
+}
+
+/* First caret: blink during typing, then hide */
+.lineOne::after {
+  animation: blink-caret 0.75s step-end infinite, hide-caret 0s forwards;
+  animation-delay: 0s, 2s;
+}
+
+/* Second caret: start blinking after first line is done */
+.lineTwo::after {
+  animation: blink-caret 0.75s step-end infinite;
+  animation-delay: 2.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Typing keyframes */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking caret */
+@keyframes blink-caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Hide caret (used on first line after typing ends) */
+@keyframes hide-caret {
+  to {
+    visibility: hidden;
+  }
+}
+
 .moto {
   font-size: 25px;
   color: rgb(255, 255, 255);
