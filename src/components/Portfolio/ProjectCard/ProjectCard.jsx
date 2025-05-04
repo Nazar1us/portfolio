@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const ProjectCard = ({ project }) => {
   return (
-    <article className={styles.project}>
+    <article className={`container ${styles.project}`}>
       <div className={styles["project-details"]}>
         <h3>{project.title}</h3>
         <p>{project.description}</p>

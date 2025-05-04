@@ -1,18 +1,26 @@
 .projects {
   border-bottom: 2px solid #fff; /* Adjust thickness, style, and color as needed */
   justify-content: space-between;
+  background-color: rgb(14, 56, 100);
+  margin: 0 auto;
+}
+.card {
+  width: 100%;
 }
 
 .projects h1 {
   margin-bottom: 1rem;
   color: rgb(152, 255, 142);
-  font-size: 2.1875rem;
   /* border: 2px solid underline; */
+  text-align: left;
+  font-size: 2.8rem;
 }
 
-.projects p {
+.secondary_par {
   color: rgba(255, 255, 255, 0.91);
-  font-size: 25px;
+  font-size: 1.8rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  width: 70%;
+  /* text-decoration: underline; */
 }

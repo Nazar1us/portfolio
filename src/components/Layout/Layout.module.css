@@ -1,3 +1,8 @@
-header {
+.header {
   background-color: #101820;
+}
+
+.homePageMain {
+  background-color: rgb(14, 56, 100);
+  /* Add other homepage styles here */
 }

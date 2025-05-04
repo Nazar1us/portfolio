@@ -1,11 +1,12 @@
-import HomePortfolio from "../components/Portfolio/Home/HomePortfolio";
-// import Projects from "../components/Portfolio/Projects/Projects";
+import HomePage from "../components/Portfolio/Home/HomePage";
+import Projects from "../components/Portfolio/Projects/Projects";
 
 const Home = () => {
   return (
-    <>
-      <HomePortfolio />
-    </>
+    <div className="container">
+      <HomePage />
+      <Projects />
+    </div>
   );
 };
 

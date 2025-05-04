@@ -1,5 +1,6 @@
 .project {
   display: block;
+  margin: 0 auto;
 }
 
 .project-image > img {
@@ -10,6 +11,12 @@
   height: 100%;
   object-fit: contain;
   border-radius: 10px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .project-details h3 {
@@ -34,15 +41,16 @@
 }
 
 .projects-links a {
-  color: rgb(151, 255, 141);
+  color: rgb(203, 255, 198);
   font-size: 1em;
   font-weight: bold;
-  border: 2px solid rgb(151, 255, 141);
+  border: 2px solid rgb(203, 255, 198);
   padding: 10px;
 }
 
 .projects-links a:hover {
-  border: 2px solid rgb(81, 194, 71);
+  border: 2px solid rgb(152, 255, 142);
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
+  color: rgb(152, 255, 142);
 }
