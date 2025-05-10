@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "declaration.d.ts"],
+  "include": ["src", "declaration.d.ts", "public/3d_Earth"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
