@@ -47,52 +47,56 @@ function ContactForm() {
 
   return (
     <section className={styles["form-section"]}>
-      <GlobeBackground rotation={[0, rotationY, 0]} />
-      <h3>Let&apos;s get in touch</h3>
-      <div style={{ position: "relative", zIndex: 1 }}>
-        <form ref={form} onSubmit={sendEmail} className={styles.connectForm}>
-          <div className={styles["input-container"]}>
-            <label htmlFor="from_name" className={styles["connect-label"]}>
-              Name:
-            </label>
-            <input
-              type="text"
-              id="from_name"
-              name="from_name"
-              value={formData.from_name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className={styles["input-container"]}>
-            <label htmlFor="from_email" className={styles["connect-label"]}>
-              Email:
-            </label>
-            <input
-              className={styles["connect-input"]}
-              type="email"
-              id="from_email"
-              name="from_email"
-              value={formData.from_email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className={styles["input-container"]}>
-            <label htmlFor="message" className={styles["connect-label"]}>
-              Message:
-            </label>
-            <textarea
-              className={styles["connect-input"]}
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
+      <div className={styles["form-globe-container"]}>
+        <div className={styles["globe-wrapper"]}>
+          <GlobeBackground rotation={[0, rotationY, 0]} />
+        </div>
+        <h3>Let&apos;s get in touch</h3>
+        <div>
+          <form ref={form} onSubmit={sendEmail} className={styles.connectForm}>
+            <div className={styles["input-container"]}>
+              <label htmlFor="from_name" className={styles["connect-label"]}>
+                Name:
+              </label>
+              <input
+                type="text"
+                id="from_name"
+                name="from_name"
+                value={formData.from_name}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className={styles["input-container"]}>
+              <label htmlFor="from_email" className={styles["connect-label"]}>
+                Email:
+              </label>
+              <input
+                className={styles["connect-input"]}
+                type="email"
+                id="from_email"
+                name="from_email"
+                value={formData.from_email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className={styles["input-container"]}>
+              <label htmlFor="message" className={styles["connect-label"]}>
+                Message:
+              </label>
+              <textarea
+                className={styles["connect-input"]}
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
       </div>
 
       {submissionStatus === "success" && (
