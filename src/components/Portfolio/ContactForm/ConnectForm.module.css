@@ -1,0 +1,62 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.form-container > h3 {
+  font-size: 2.5rem;
+  margin: 50px 0;
+  color: rgb(152, 255, 142);
+}
+
+.connect-input {
+  height: 25px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: rgba(6, 17, 63, 0.29);
+  color: rgb(203, 255, 198);
+  font-weight: 500;
+  padding: 7px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.connect-label {
+  color: rgb(203, 255, 198);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-globe-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.globe-wrapper {
+  margin: 0 auto;
+}
+
+/* .formContainer {
+  background: white;
+  padding: 10%;
+  border-radius: 10px;
+} */
+
+.connectForm {
+  max-width: 550px;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.input-container textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.connect-input:focus {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

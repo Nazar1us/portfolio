@@ -51,14 +51,15 @@ function ContactForm() {
         <div className={styles["globe-wrapper"]}>
           <GlobeBackground rotation={[0, rotationY, 0]} />
         </div>
-        <h3>Let&apos;s get in touch</h3>
-        <div>
+        <div className={styles["form-container"]}>
+          <h3>Let&apos;s get in touch</h3>
           <form ref={form} onSubmit={sendEmail} className={styles.connectForm}>
             <div className={styles["input-container"]}>
               <label htmlFor="from_name" className={styles["connect-label"]}>
                 Name:
               </label>
               <input
+                className={styles["connect-input"]}
                 type="text"
                 id="from_name"
                 name="from_name"
