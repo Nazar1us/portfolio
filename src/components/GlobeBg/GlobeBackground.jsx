@@ -3,6 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
 // import { useRef } from "react";
 import Earth from "../Earth/Earth.jsx";
+import styles from "./GlobeBackground.module.css";
 
 const Globe = () => {
   const [rotationY, setRotationY] = useState(0);
@@ -20,13 +21,7 @@ const Globe = () => {
 
 const GlobeBackground = () => {
   return (
-    <div
-      style={{
-        position: "relative",
-        width: "50vw",
-        height: "50vh",
-      }}
-    >
+    <div className={styles.globe}>
       <Canvas>
         <ambientLight intensity={0.5} />
         <OrbitControls enableZoom={false} autoRotate={false} />
