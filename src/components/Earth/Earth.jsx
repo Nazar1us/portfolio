@@ -16,7 +16,7 @@ export default function Model({ rotation }) {
       <mesh
         geometry={nodes.Object_4.geometry}
         material={materials["Scene_-_Root"]}
-        scale={2}
+        scale={2.5}
         castShadow
         receiveShadow
       />

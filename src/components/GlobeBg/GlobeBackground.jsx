@@ -9,7 +9,7 @@ const Globe = () => {
   const [rotationY, setRotationY] = useState(0);
 
   useFrame(({ clock }) => {
-    setRotationY(clock.elapsedTime / 10);
+    setRotationY(clock.elapsedTime / 7);
   });
 
   return (
@@ -23,7 +23,7 @@ const GlobeBackground = () => {
   return (
     <div className={styles.globe}>
       <Canvas>
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={0.7} />
         <OrbitControls enableZoom={false} autoRotate={false} />
         <Globe />
         <Environment preset="sunset" />
