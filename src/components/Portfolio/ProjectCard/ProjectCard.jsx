@@ -16,6 +16,14 @@ const ProjectCard = ({ project }) => {
           </ul>
         </div>
 
+        <div className={styles["project-image"]}>
+          <img
+            src={`/projects/${project.image}`}
+            alt={project.title}
+            width={500}
+            height={500}
+          />
+        </div>
         <div className={styles["projects-links"]}>
           <a
             href={project.liveDemo}
@@ -34,15 +42,6 @@ const ProjectCard = ({ project }) => {
             See on GitHub
           </a>
         </div>
-      </div>
-
-      <div className={styles["project-image"]}>
-        <img
-          src={`/projects/${project.image}`}
-          alt={project.title}
-          width={500}
-          height={500}
-        />
       </div>
     </article>
   );

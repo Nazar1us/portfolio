@@ -4,3 +4,12 @@
   height: "100vh";
   margin-top: 50px;
 }
+
+@media screen and (min-width: 768px) {
+  .globe {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: 12rem;
+  }
+}
