@@ -55,3 +55,18 @@
   transition: transform 0.3s ease-in-out;
   color: rgb(152, 255, 142);
 }
+
+.tool-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tool-list > li {
+  color: rgba(0, 0, 0, 0.84);
+  background: rgb(186, 254, 180);
+  padding: 7px 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

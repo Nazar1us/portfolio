@@ -5,7 +5,8 @@
     "description": "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
     "image": "shop-store.png",
     "liveDemo": "https://shop-store-nine.vercel.app/",
-    "github": "https://github.com/Nazar1us/shop-store"
+    "github": "https://github.com/Nazar1us/shop-store",
+    "tools": ["HTML", "Tailwind", "Next.js", "Prisma", "TypeScript"]
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Built a Food Recepies that we can add new meals! In this project I used next.js and css modules.",
     "image": "burger.png",
     "liveDemo": "https://myfirst-nextjs-app.netlify.app/",
-    "github": "https://github.com/Nazar1us/next-js-app"
+    "github": "https://github.com/Nazar1us/next-js-app",
+    "tools": ["HTML", "CSS.module", "Next.js"]
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "description": "Created a Vans website, where we can book a van, log in into the personal account. In this project I use plain React.js library, created custom hooks etc...",
     "image": "vansLife.png",
     "liveDemo": "https://vanslife1.netlify.app/",
-    "github": "https://github.com/Nazar1us/vanslife"
+    "github": "https://github.com/Nazar1us/vanslife",
+    "tools": ["CSS", "HTML", "React.js"]
   }
 ]

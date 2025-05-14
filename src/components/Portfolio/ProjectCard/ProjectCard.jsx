@@ -8,6 +8,14 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
 
+        <div className={styles["project-tools"]}>
+          <ul className={styles["tool-list"]}>
+            {project.tools.map((tool, index) => (
+              <li key={index}>{tool}</li>
+            ))}
+          </ul>
+        </div>
+
         <div className={styles["projects-links"]}>
           <a
             href={project.liveDemo}
@@ -27,6 +35,7 @@ const ProjectCard = ({ project }) => {
           </a>
         </div>
       </div>
+
       <div className={styles["project-image"]}>
         <img
           src={`/projects/${project.image}`}
@@ -47,6 +56,7 @@ ProjectCard.propTypes = {
     liveDemo: PropTypes.string.isRequired,
     github: PropTypes.string.isRequired,
     image: PropTypes.any.isRequired,
+    tools: PropTypes.string,
   }).isRequired,
 };
 
