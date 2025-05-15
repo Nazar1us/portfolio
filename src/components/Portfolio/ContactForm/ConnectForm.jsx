@@ -108,10 +108,10 @@ function ContactForm() {
       </div>
 
       {submissionStatus === "success" && (
-        <p style={{ color: "green" }}>Message sent successfully!</p>
+        <p className={styles.success}>Message sent successfully!</p>
       )}
       {submissionStatus === "error" && (
-        <p style={{ color: "red" }}>
+        <p className={styles.failed}>
           Failed to send message. Please try again.
         </p>
       )}
