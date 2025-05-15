@@ -55,7 +55,7 @@ function ContactForm() {
           <h3>
             Let&apos;s get in touch <br />
             <span className={styles["around-globe"]}>
-              {`<around the globe />`}
+              {`<AroundTheGlobe /> `}
             </span>
           </h3>
           <form ref={form} onSubmit={sendEmail} className={styles.connectForm}>
@@ -100,7 +100,9 @@ function ContactForm() {
                 required
               />
             </div>
-            <button type="submit">Send Message</button>
+            <button className={styles.formBtn} type="submit">
+              Send Message
+            </button>
           </form>
         </div>
       </div>

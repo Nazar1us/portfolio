@@ -2,6 +2,9 @@
   display: block;
   margin: 0 auto;
 }
+article {
+  margin-bottom: 50px;
+}
 
 .project-image > img {
   display: block;

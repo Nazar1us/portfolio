@@ -14,14 +14,14 @@ const Globe = () => {
 
   return (
     <Suspense fallback={null}>
-      <Earth rotation={[0, rotationY, 0]} />
+      <Earth rotation={[0, rotationY, 0]} className={styles.globe} />
     </Suspense>
   );
 };
 
 const GlobeBackground = () => {
   return (
-    <div className={styles.globe}>
+    <div className={styles.canvasContainer}>
       <Canvas>
         <ambientLight intensity={0.7} />
         <OrbitControls enableZoom={false} autoRotate={false} />

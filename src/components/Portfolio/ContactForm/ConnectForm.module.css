@@ -66,7 +66,37 @@
   transition: transform 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 768px) {
+.formBtn {
+  background-image: linear-gradient(
+    to right,
+    rgb(64, 110, 138) 0%,
+    rgb(5, 158, 229) 51%,
+    rgb(33, 148, 106) 100%
+  );
+}
+.formBtn {
+  font-size: 1.2rem;
+  border-radius: 7px;
+  border: none;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(152, 255, 142);
+  border-radius: 10px;
+  display: block;
+  font-weight: 500;
+}
+
+.formBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(228, 253, 226);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 850px) {
   .form-container > h3 {
     text-align: center;
   }

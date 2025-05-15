@@ -15,7 +15,7 @@
     "image": "burger.png",
     "liveDemo": "https://myfirst-nextjs-app.netlify.app/",
     "github": "https://github.com/Nazar1us/next-js-app",
-    "tools": ["HTML", "CSS.module", "Next.js"]
+    "tools": ["HTML", "CSS.module", "Next.js", "AWS"]
   },
   {
     "id": 3,
