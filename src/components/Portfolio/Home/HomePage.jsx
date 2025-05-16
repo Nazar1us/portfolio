@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import myPhoto from "../../../../src/assets/Portfolio/myPhotos/myPhoto.jpeg";
+import resume from "../../../../src/assets/Portfolio/Resume/Nazariy_LahoidaCV.pdf";
 import styles from "./HomePage.module.css";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
@@ -19,7 +20,7 @@ const HomePortfolio = () => {
           friendly websites.
         </p>
         <div className={styles["personal-links"]}>
-          <a href={myPhoto} download={myPhoto} className={styles.myResume}>
+          <a href={resume} download={resume} className={styles.myResume}>
             Download <FontAwesomeIcon icon={faDownload} size="1x" />
           </a>
           <a
