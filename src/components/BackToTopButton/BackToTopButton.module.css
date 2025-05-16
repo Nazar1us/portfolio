@@ -1,15 +1,16 @@
 .backToTop {
   position: fixed;
-  font-size: 50px;
+  font-size: 40px;
   bottom: 20px;
   right: 20px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: white;
-  color: green;
-  font-weight: bold;
-  border: none;
+  background-color: black;
+  border: 2px solid rgb(247, 255, 11);
+}
+.arrowUp {
+  color: yellow;
 }
 
 /* .visible {
