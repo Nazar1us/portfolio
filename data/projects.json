@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "ProStore E-Commerce website",
-    "description": "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
+    "description": "Built a fully functional e-commerce web application that allows users to browse products, view detailed product pages, add items to a shopping cart, and complete secure checkouts. The platform features a responsive design, smooth user experience, and essential functionalities such as product filtering, search, and order management. Designed to provide a seamless shopping experience for users across all devices",
     "image": "shop-store.png",
     "liveDemo": "https://shop-store-nine.vercel.app/",
     "github": "https://github.com/Nazar1us/shop-store",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Food Recepies Project",
-    "description": "Built a Food Recepies that we can add new meals! In this project I used next.js and css modules.",
+    "description": "Created a dynamic Food Recipes web application that enables users to share their favorite recipes, browse dishes from other users, and explore a variety of cuisines. The platform encourages community engagement through user-generated content, making it easy for food enthusiasts to discover, save, and try out new recipes.",
     "image": "burger.png",
     "liveDemo": "https://myfirst-nextjs-app.netlify.app/",
     "github": "https://github.com/Nazar1us/next-js-app",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "VansLife Website",
-    "description": "Created a Vans website, where we can book a van, log in into the personal account. In this project I use plain React.js library, created custom hooks etc...",
+    "description": "Developed a van rental website where users can browse available vans, book rentals, and log in to access their personal accounts. The project was built using plain React.js, without additional frameworks, to gain a deeper understanding of core concepts. Implemented custom hooks for cleaner code and better state management, and focused on building reusable components and a smooth user experience throughout the app.",
     "image": "vansLife.png",
     "liveDemo": "https://vanslife1.netlify.app/",
     "github": "https://github.com/Nazar1us/vanslife",
